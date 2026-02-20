@@ -1,0 +1,91 @@
+/* ===== Page Center ===== */
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Main Container ===== */
+.form-control {
+  width: 620px;          /* 🔥 FIX: wider container */
+  padding: 24px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+/* ===== Page Heading ===== */
+.form-control h2 {
+  margin-bottom: 28px;
+}
+
+/* ===== Forms ===== */
+.form-control form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Labels ===== */
+.form-control label {
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/* ===== Inputs ===== */
+.form-control input {
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+/* ===== Buttons ===== */
+.form-control button {
+  margin-top: 24px;
+  padding: 10px;
+  border: 1px solid #000;
+  background: none;
+  cursor: pointer;
+}
+
+/* ===== SUMMARY SECTION ===== */
+.summary {
+  display: flex;
+  justify-content: space-between; /* 🔥 FIX */
+  gap: 32px;
+  margin-top: 32px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ===== Summary Boxes ===== */
+.summary div {
+  flex: 1;
+  border: 1px solid #000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* ===== Summary Titles ===== */
+.summary h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== Label + Value Rows ===== */
+.summary p {
+  display: flex;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/* ===== Label Column ===== */
+.summary p b {
+  width: 90px;
+  flex-shrink: 0;
+}
+
+/* ===== Bottom Button ===== */
+.form-control > button {
+  margin-top: 32px;
+  width: 100%;
+}

@@ -1,0 +1,64 @@
+/* Full-page gradient background */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Center container */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card box */
+.updatediv {
+    background: white;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+}
+
+.updatediv:hover {
+    transform: scale(1.05);
+}
+
+/* Number display */
+.updatediv h1 {
+    font-size: 4rem;
+    color: #4f46e5;
+    margin: 0;
+}
+
+/* Button container */
+.buttondiv {
+    display: flex;
+    gap: 20px;
+}
+
+/* Button styling */
+button {
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #3730a3;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: scale(0.95);
+}
